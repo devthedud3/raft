@@ -4,8 +4,8 @@ import { Button } from "./ui/components";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center ">
-      <section className="inline-flex h-fit pt-48 px-24 justify-between">
-        <div className="w-1/2 h-full">
+      <section className="block lg:flex h-fit pt-48 px-24 justify-between">
+        <div className="lg:w-1/2 h-full">
           <h1 className="text-6xl text-[--primary] font-black pb-4">
             Hire top Remote Software Engineers now.
           </h1>
