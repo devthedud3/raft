@@ -3,13 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --background: #222;
+  /* --background: #FBF3E9; */
+  --background: #FBF3E9;
 
-  --primary: #f5dfae;
+  --primary: #1C464F;
   --secondary: ;
-  --border: #585858;
+  --border: #d2d2d2;
   
-  --primary-light: #fff;
+  --primary-light: #A36A2E;
   --secondary-light: ;
 
 
@@ -22,11 +23,15 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+html{
+
+}
 
 body {
   background-color: var(--background);
   max-height: 100vh;
   height: 100%;
+
   color: var(--primary-light);
 
 }
