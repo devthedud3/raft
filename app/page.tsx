@@ -7,7 +7,7 @@ export default function Home() {
       <section className="block lg:flex h-fit pt-48 px-24 justify-between">
         <div className="lg:w-1/2 h-full">
           <h1 className="text-6xl text-[--primary] font-black pb-4">
-            Hire top Remote Software Engineers now.
+            Hire top Remote Freelance Engineers now.
           </h1>
           <p className="text-sm text-[--primary-light]">
             Get exclusive access to top quality, verified, Software Engineers
