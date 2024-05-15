@@ -1,15 +1,22 @@
+import Link from "next/link";
 import React from "react";
 
 type ButtonProps = {
   name: string;
+  link?: string;
 };
 
-export const Button = ({ name }: ButtonProps) => {
+export const Button = ({ name, link }: ButtonProps) => {
   return (
-    <div className="p-1 bg-[--background] border-2 border-[--border] w-fit rounded-tl-full rounded-tr-full rounded-bl-full">
-      <div className="p-2 px-6 bg-[--primary] border border-black w-fit rounded-tl-full rounded-tr-full rounded-bl-full">
-        <p className="text-[--background] text-sm">{name}</p>
+    <Link
+      href={link || "/"}
+      className="transition duration-200 p-1 bg-[--background] border border-[--border] w-fit rounded-tl-full rounded-tr-full rounded-bl-full hover:border-[--primary]"
+    >
+      <div className="py-3 px-6 bg-[--primary] border border-black w-fit rounded-tl-full rounded-tr-full rounded-bl-full">
+        <p className="text-[--background] text-sm font-semibold text-nowrap">
+          {name}
+        </p>
       </div>
-    </div>
+    </Link>
   );
 };
