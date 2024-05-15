@@ -12,7 +12,7 @@ export const Button = ({ name, link }: ButtonProps) => {
       href={link || "/"}
       className="transition duration-200 p-1 bg-[--background] border border-[--border] w-fit rounded-tl-full rounded-tr-full rounded-bl-full hover:border-[--primary]"
     >
-      <div className="py-3 px-6 bg-[--primary] border border-black w-fit rounded-tl-full rounded-tr-full rounded-bl-full">
+      <div className="py-3 px-6 bg-[--primary] w-fit rounded-tl-full rounded-tr-full rounded-bl-full">
         <p className="text-[--background] text-sm font-semibold text-nowrap">
           {name}
         </p>
