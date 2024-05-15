@@ -59,7 +59,7 @@ export const Footer = (props: Props) => {
         </div>
         <div className="border-t border-[--border] py-10 text-xs">
           <div className="flex w-full justify-between">
-            <p>Copywrite © 2024 Chain Spark LLC. All rights reserved.</p>
+            <p>Copywrite © 2024 RAFT. All rights reserved.</p>
             <div className="flex space-x-3">
               <p>Privacy Policy</p>
               <p>Terms</p>
