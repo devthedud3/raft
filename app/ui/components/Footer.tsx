@@ -37,7 +37,7 @@ export const Footer = (props: Props) => {
           </div>
           {footer.map(({ name, tabs }: any, index: number) => {
             return (
-              <div className="w-32 ">
+              <div className="w-32" key={index}>
                 <h2 className="text-sm font-bold">{name}</h2>
                 <div className="pt-6 space-y-4">
                   {tabs.map((v: string, i: number) => {
