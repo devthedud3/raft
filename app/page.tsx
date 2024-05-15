@@ -22,14 +22,6 @@ export default function Home() {
 
             <Button name="Join waiting list" />
           </div>
-          {/* <div className=" h-full rotate-90 animate-pulse flex items-end translate-x-12">
-            <div className="flex items-center w-fit">
-              <p className="text-xs text-[--primary] text-nowrap pr-2">
-                learn more
-              </p>
-              <div className="border-b border-[--primary] h-1 w-32" />
-            </div>
-          </div> */}
           <Image
             className="pt-10 animate-pulse"
             src="/learn-more.svg"
